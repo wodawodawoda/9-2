@@ -6,4 +6,6 @@ maleNames.splice(0, 0, 'Michał');
 
 var allNames = femaleNames.concat(maleNames);
 
-allNames
+var newName = 'Ania';
+
+allNames.indexOf(newName) === -1 ? allNames.push(newName) : 'To imię już istnieje w tablicy';
