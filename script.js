@@ -8,4 +8,4 @@ var allNames = femaleNames.concat(maleNames);
 
 var newName = 'Ania';
 
-allNames.indexOf(newName) === -1 ? allNames.push(newName) : 'To imię już istnieje w tablicy';
+allNames.indexOf(newName) === -1 ? allNames.push(newName) : console.log('Imię ' + newName + ' istnieje w tablicy');
